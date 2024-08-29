@@ -9,9 +9,8 @@ a = float(input("Nhap a:"))
 b = float(input("Nhap b:"))
 if a!= 0:
     print("Phương trình có nghiệm x=",-b/a)
-else:
-    if b!= 0:
-     print("Phương trình vô nghiệm")
-    else:
-      print("Phương trình vô số nghiệm")
+if a == 0 and b!= 0:
+    print('Phương trình vô nghiệm')
+if a == 0 and b == 0:
+    print("Phương trình vô số nghiệm")
     
